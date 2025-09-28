@@ -1,0 +1,35 @@
+sources:
+https://earth.google.com/web/@42.17199443,-87.86462034,198.58246414a,1195.04953889d,35y,357.42319088h,0t,0r/data=OgMKATA
+https://pixspy.com
+https://networkx.org/documentation/stable/tutorial.html
+https://comp.lang.python.narkive.com/5enGQuFx/clearing-the-tkinter-window
+https://youtu.be/pxKu2pQ7ILo?si=JgTgNY7nSSlX9LRo
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+https://gist.github.com/kachayev/5990802
+
+
+This project is a mapquest representation for common Deerfield places and location.
+There are only so many places and locations on the graph however, much more locations can be
+added however it is very tedious because for the visualization to work a node would have to be
+placed at every intersection and curve in the street. For this reason I did a limited number of
+locations so I could demonstrate the mapquest working and with a much larger data base you could
+achieve something similar to the google maps and apple maps of todays world.
+To complete this project I used multiple different data structures and algorithms that
+we learned this year. For example, I used graphs to represent the different locations and dijkstra's
+algorithm to find the shortest path between the nodes/locations. I also used a dictonary to store the
+pixel coordinates of each location on the the map. To create the graphs I imported the networkx graph
+class because it fit my needs that I was looking for as a weighted graph class. I used online sources
+to find dijkstra's algorithm and then I slightly modified it to fit my code. To create the starting
+screen I used tkinter graphics to make labels, buttons, and drop down-menus
+to help explain the program and allow the user to choose their starting and ending location. I
+then used Turtle graphics to animate the traveling from node to node in the shortest path demonstration
+over my google maps screenshot of deerfield. To find where the nodes would be on the image I used a
+photo editor to find the pixel coordinates of each location and then used a method to convert them to
+turtle graphics coordinates which have (0,0) at the center of the screen. To calculate the distance
+between nodes I used google earth's ruler tool to find the distance between locations and added that
+as the weight of each edge. Overall, this project expanded my knowledge a lot about different data
+structures and how to implement them usfully in real coding projects. This project also expanded my
+knowledge in python which is very helpful to know in a language I am not as familiar with and it
+tought me a lot about graphics and different tools in python. I hope you enjoy my project and I will
+link a video of my running my code as it my not work on your end as I had to install packages for
+the networkx graphs to work properly.
